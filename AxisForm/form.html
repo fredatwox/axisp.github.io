@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axis Data Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="form.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <header>EMPLOYEE DATA FORM</header>
+        <br>
+        <hr>
+
+        <form action="#">
+            <div class="data bio">
+                <span class="title">BIO DATA</span>
+
+                <div class="fields">
+                 
+                  <div class="input-fields">
+                    <label>Staff No</label>
+                    <input type="text" placeholder="" id="staffNo" required>
+                  </div>
+
+                  <div class="input-fields">
+                    <label>Appointment Start date</label>
+                    <input type="text" placeholder="" id="Appstartdate" required>
+                  </div>
+
+                  <div class="input-fields">
+                    <label>TIN</label>
+                    <input type="text" placeholder="" id="tin" required>
+                  </div>
+
+                  <div class="input-fields">
+                    <label>SSNIT No</label>
+                    <input type="text" placeholder="" id="ssnitNo"   required>
+                  </div>
+
+                  <div class="input-fields">
+                    <label>Date of Birth</label>
+                    <input type="text" placeholder="" id="dateofbirth" required>
+                  </div>
+
+                  <div class="input-fields">
+                    <label>Title</label>
+                    <input type="text" placeholder="" id="title" required>
+                  </div>
+
+                  <div class="input-fields">
+                    <label>Surname</label>
+                    <input type="text" placeholder="" id="surname" required>
+                  </div>
+
+                  <div class="input-fields">
+                    <label>Other names</label>
+                    <input type="text" placeholder="" id="othernames" required>
+                  </div>
+
+                  <div class="input-fields">
+                    <label>Gender code</label>
+                    <input type="text" placeholder="" id="gendercode" required>
+                  </div>
+
+                  <div class="input-fields">
+                    <label>Marital status code</label>
+                    <input type="text" placeholder="" id="maritalstatuscode" required>
+                  </div>
+
+                  <div class="input-fields">
+                    <label>Cellphone</label>
+                    <input type="text" placeholder="" id="cellphone" required>
+                  </div>
+
+                  <div class="input-fields">
+                    <label>Email</label>
+                    <input type="email" placeholder="" id="email" required>
+                  </div>
+
+                  <div class="input-fields">
+                    <label>Corresponding Address</label>
+                    <input type="text" placeholder="" id="Correspondingaddress" required>
+                  </div>
+
+                  <div class="input-fields">
+                    <label>PassportPhoto</label>
+                    <input type="text" placeholder="" id="passportphoto" required>
+                  </div>
+                
+                </div>
+         
+            
+            </div>
+
+
+
+
+            <div class="employee deatails">
+                <span class="title">EMPLOYMENT DATA</span>
+
+                <div class="fields">
+                    <div class="input-fields">
+                     <label>Employment Date</label>
+                     <input type="text" placeholder=""  id="employeddate" required>
+                   </div>
+
+                   <div class="input-fields">
+                    <label>Designation</label>
+                    <input type="text" placeholder="" id="designation" required>
+                  </div>
+
+                  <div class="input-fields">
+                    <label>Job Grade</label>
+                    <input type="text" placeholder="" id="jobgrade" required>
+                  </div>
+
+                  <div class="input-fields">
+                    <label>Employee Type</label>
+                    <input type="text" placeholder="" id="employeetype" required>
+                  </div>
+
+                  <div class="input-fields">
+                    <label>Branch</label>
+                    <input type="text" placeholder="" id="branch" required>
+                  </div>
+
+                  <div class="input-fields">
+                    <label>Head of Department Name</label>
+                    <input type="text" placeholder="" id="hodname" required>
+                  </div>
+
+                  <div class="input-fields">
+                    <label>Contract Frequency Code</label>
+                    <input type="text" placeholder="" id="cfcode" required>
+                  </div>
+
+                  <div class="input-fields">
+                    <label>Contract Duration</label>
+                    <input type="text" placeholder="" id="contractd" required>
+                  </div>
+
+                </div>
+
+            </div>
+            
+            
+            <button type="button" id="myBtn" onclick="insertData()">Submit</button>  
+                
+
+              
+
+                
+
+               
+                </div>
+
+
+        </form>
+    
+        
+
+    </div>
+
+
+    
+</body>
+</html>
